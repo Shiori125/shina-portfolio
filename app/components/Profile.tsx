@@ -43,18 +43,8 @@ export default function Profile() {
                 <div>
                   <h3 className="text-base font-medium text-slate-700 mb-2">こだわっていること</h3>
                   <p className="text-slate-500 font-light leading-relaxed">
-                    「現場で本当に使える仕組み」にこだわっています。技術的に面白いだけでなく、
+                    「現場で本当に使える仕組み」にこだわっています。高度な技術より、
                     実際の業務でちゃんと動いて、使い続けられることを大切にしています。
-                    お客様の業務への理解なくしては、良い仕組みはつくれないと思っています。
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-base font-medium text-slate-700 mb-2">活動について</h3>
-                  <p className="text-slate-500 font-light leading-relaxed">
-                    フリーランスチーム「フランクル」のAIチームとして活動しています。
-                    必要に応じてチームと連携したご提案・制作も可能です。
-                    一人では対応が難しいご要望にも、チームでお応えできる体制があります。
                   </p>
                 </div>
 

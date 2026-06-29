@@ -28,7 +28,7 @@ export default function Contact() {
 
         <div className="reveal" style={{ transitionDelay: "200ms" }}>
           <a
-            href="mailto:contact@shina-ai.com"
+            href="mailto:flytothesky125@gmail.com"
             className="inline-flex items-center gap-3 px-10 py-5 bg-slate-800 text-white rounded-full text-sm font-light tracking-wide hover:bg-slate-700 transition-all hover:shadow-xl hover:-translate-y-0.5"
           >
             <span>お問い合わせフォームへ</span>
