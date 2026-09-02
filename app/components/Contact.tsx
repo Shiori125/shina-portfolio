@@ -84,6 +84,45 @@ export default function Contact() {
             </div>
 
             <div>
+              <label htmlFor="title" className="block text-sm font-light text-slate-600 mb-2">
+                タイトル
+              </label>
+              <input
+                id="title"
+                name="title"
+                type="text"
+                required
+                className="w-full px-5 py-3 rounded-xl border border-slate-200 bg-white/80 text-slate-800 font-light focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent transition-all"
+                placeholder="お問い合わせの件名"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="category" className="block text-sm font-light text-slate-600 mb-2">
+                お問い合わせ種別
+              </label>
+              <select
+                id="category"
+                name="category"
+                required
+                defaultValue=""
+                className="w-full px-5 py-3 rounded-xl border border-slate-200 bg-white/80 text-slate-800 font-light focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent transition-all"
+              >
+                <option value="" disabled>
+                  選択してください
+                </option>
+                <option value="資料変換">資料変換</option>
+                <option value="スプレッドシート自動化">スプレッドシート自動化</option>
+                <option value="経理サポート">経理サポート</option>
+                <option value="リサーチ自動化">リサーチ自動化</option>
+                <option value="発信業務サポート">発信業務サポート</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+
+            <input type="hidden" name="_subject" value="【お問い合わせ】shinaポートフォリオより" />
+
+            <div>
               <label htmlFor="email" className="block text-sm font-light text-slate-600 mb-2">
                 メールアドレス
               </label>
