@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Problems from "./components/Problems";
 import Solutions from "./components/Solutions";
+import Demo from "./components/Demo";
 import Flow from "./components/Flow";
 import Profile from "./components/Profile";
 import Contact from "./components/Contact";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Problems />
       <Solutions />
+      <Demo />
       <Flow />
       <Profile />
       <Contact />

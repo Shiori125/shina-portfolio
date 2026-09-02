@@ -31,6 +31,12 @@ export default function Header() {
             できること
           </a>
           <a
+            href="#demo"
+            className="text-sm text-slate-500 hover:text-slate-800 transition-colors"
+          >
+            デモを見る
+          </a>
+          <a
             href="#flow"
             className="text-sm text-slate-500 hover:text-slate-800 transition-colors"
           >
