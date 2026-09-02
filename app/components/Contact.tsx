@@ -84,22 +84,22 @@ export default function Contact() {
             </div>
 
             <div>
-              <label htmlFor="title" className="block text-sm font-light text-slate-600 mb-2">
-                タイトル
+              <label htmlFor="email" className="block text-sm font-light text-slate-600 mb-2">
+                メールアドレス
               </label>
               <input
-                id="title"
-                name="title"
-                type="text"
+                id="email"
+                name="email"
+                type="email"
                 required
                 className="w-full px-5 py-3 rounded-xl border border-slate-200 bg-white/80 text-slate-800 font-light focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent transition-all"
-                placeholder="お問い合わせの件名"
+                placeholder="you@example.com"
               />
             </div>
 
             <div>
               <label htmlFor="category" className="block text-sm font-light text-slate-600 mb-2">
-                お問い合わせ種別
+                ご希望のAI活用種別
               </label>
               <select
                 id="category"
@@ -123,16 +123,16 @@ export default function Contact() {
             <input type="hidden" name="_subject" value="【お問い合わせ】shinaポートフォリオより" />
 
             <div>
-              <label htmlFor="email" className="block text-sm font-light text-slate-600 mb-2">
-                メールアドレス
+              <label htmlFor="title" className="block text-sm font-light text-slate-600 mb-2">
+                タイトル
               </label>
               <input
-                id="email"
-                name="email"
-                type="email"
+                id="title"
+                name="title"
+                type="text"
                 required
                 className="w-full px-5 py-3 rounded-xl border border-slate-200 bg-white/80 text-slate-800 font-light focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent transition-all"
-                placeholder="you@example.com"
+                placeholder="お問い合わせの件名"
               />
             </div>
 
